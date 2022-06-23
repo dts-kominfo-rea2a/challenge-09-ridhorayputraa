@@ -3,11 +3,11 @@ import React from 'react';
 import  '../App.css';
 const Header = () => {
     return (
-        <div class="header-container">
-            <div class="header">
-          <h1 class="content-h">Call a Friend</h1>
-          <p class="content-p" >you friendly contact app</p>
-          <span class="content-s">**************************************************************************</span>
+        <div className="header-container">
+            <div className="header">
+          <h1 className="content-h">Call a Friend</h1>
+          <p className="content-p" >you friendly contact app</p>
+          <span className="content-s">**************************************************************************</span>
         </div>
         </div>
     )

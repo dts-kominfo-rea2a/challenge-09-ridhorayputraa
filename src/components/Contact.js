@@ -6,17 +6,17 @@ import Contacts from '../data/contacts.json';
 
 const Contact = () => {
     return (
-        <div class="dummy">
+        <div className="dummy">
         
              {
                 Contacts.map(Contac => {
                     return(
-                        <div className="contact">
-                            <div class ="contact-container">
-                <div class="image">
+                        <div className="contact" key={Contact.id}>
+                            <div className="contact-container">
+                <div className="image">
                     <img src={Contac.photo}></img>
                 </div>
-                <div class="content">
+                <div className="content">
                     <h2>{Contac.name}</h2>
                     <p>{Contac.phone}</p>
                     <p>{Contac.email}</p>
