@@ -1,4 +1,69 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  height: 100%;
+  background-color: #F9EBD7;
+}
+.header-container{
+  padding-top: 40px;
   text-align: center;
   display: flex;
+  justify-content: center;
+  color:rgb(81, 75, 75);
+ 
+ 
+ 
+  
+}
+
+.content-p{
+  
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.content-s{
+  color:#ffb145
+}
+
+
+.contact{
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color:rgb(81, 75, 75);
+}
+
+.contact-container{
+  box-shadow:rgb(0, 0, 0) 0px 0px 10px;
+  border-radius: 30px;
+  margin-top: 50px;
+  width: 500px;
+  padding: 20px 0px;
+  background-color: #ffb145;
+  display: flex;
+}
+
+.image img{
+  border-radius: 1000px;
+ width: 120px;
+ margin-left: 30px;
+margin-right: 70px;
+}
+
+.content{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.content h2{
+  margin-bottom: 10px;
+}
+.content p{
+  margin-bottom: 10px;
 }
